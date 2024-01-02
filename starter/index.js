@@ -123,3 +123,14 @@ for(let i=1; i < finances.length; i++) {
 console.log("Greatest Increase in Profits/Losses: " + greatestProfitMonth + " ($" + greatestProfit + ")");
 
 // The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
+
+var greatestLoss = 0;
+var greatestLossMonth = "";
+for(let i=1; i < finances.length; i++) {
+  let difference = finances[i][1] - finances[i-1][1];
+  if(difference < greatestLoss) {
+    greatestLoss = difference;
+    greatestLossMonth = finances[i][0];
+  }
+}
+console.log("Greatest Decrease in Profits/Losses: " + greatestLossMonth + " ($" + greatestLoss + ")");

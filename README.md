@@ -17,7 +17,7 @@ Welcome to Finances website!
 
 ## Finances website screenshot
 - Here is the screenshot of Finances website.
-![alt text](./images/live-site.png)
+![Finances](./images/live-site.png)
 
 ## Live site link
 Here is the link of deployed website

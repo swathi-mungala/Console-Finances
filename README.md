@@ -19,12 +19,15 @@ Welcome to Finances website!
 
 ## Finances website screenshot
 - Here is the screenshot of Finances website.
+![alt text](./images/live-site.png)
 
 ## Live site link
 Here is the link of deployed website
+[Live site link](https://swathi-mungala.github.io/Console-Finances/)
 
 ## Github repo link
 Here is the link of Github repo
+[Github repo](https://github.com/swathi-mungala/Console-Finances)
 
 ## Installation
 Clone the repository from github to your local using HTTPS or SSH or Github CLI and then run it in local.
